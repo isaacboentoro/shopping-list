@@ -24,7 +24,7 @@ env = environ.Env()
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-8m)vu*3d#goh7tklbt^67hvo(blk19!-uu-zd(*0kdcol%!o53'
 
-PRODUCTION = env.bool('PRODUCTION', false)
+PRODUCTION = env.bool('PRODUCTION', False)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
